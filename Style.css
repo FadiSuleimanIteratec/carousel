@@ -1,27 +1,20 @@
-body {
-	margin: 0;
-}
-
-.container {
+#myCarousel {
 	display: flex;
-	border-color: black;
 }
 
-#carousel {
+.carousel-inner .item div {
 	display: flex;
-	width: calc(100% - 100px);
-	overflow: hidden;
-	scroll-behavior: smooth;
 }
 
-#carousel img {
+.carousel-inner .item div img {
 	width: calc(100%/3);
+	height: auto;
 }
 
 .prev, .next {
-  cursor: pointer;
-  width: 50px;
-  background-color: gray;
-  color: white;
-  border: 0;
+	cursor: pointer;
+	width: 50px;
+	background-color: gray;
+	color: white;
+	border: 0;
 }

@@ -1,12 +1,15 @@
 <html>
 <header>
 <title>Carousel</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </header>
 <body>
-<div class="container">
-	<button class="prev" onclick="doScroll('right')">PREV</button>
-	<div id="carousel"></div>
-	<button class="next" onclick="doScroll('left')">NEXT</button>
+<div id="myCarousel" class="carousel slide" data-interval="false">
+	<button class="prev" href="#myCarousel" data-slide="prev">PREV</button>
+	<div class="carousel-inner"></div>
+	<button class="next" href="#myCarousel" data-slide="next">NEXT</button>
 </div>
 <script type="text/javascript" src="Code.js"></script>
 <link rel="stylesheet" href="Style.css">
