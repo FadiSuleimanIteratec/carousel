@@ -7,4 +7,4 @@ for (let i = 1; i <= 12; i++) {
 doScroll = (direction) => {
 	let width = carousel.clientWidth;
 	carousel.scrollLeft += direction === 'left' ? width : -width;
-}
+};

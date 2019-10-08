@@ -10,7 +10,7 @@ body {
 #carousel {
 	display: flex;
 	width: calc(100% - 100px);
-	overflow: scroll;
+	overflow: hidden;
 	scroll-behavior: smooth;
 }
 
