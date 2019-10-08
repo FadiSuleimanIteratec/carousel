@@ -1,0 +1,27 @@
+body {
+	margin: 0;
+}
+
+.container {
+	display: flex;
+	border-color: black;
+}
+
+#carousel {
+	display: flex;
+	width: calc(100% - 100px);
+	overflow: scroll;
+	scroll-behavior: smooth;
+}
+
+#carousel img {
+	width: calc(100%/3);
+}
+
+.prev, .next {
+  cursor: pointer;
+  width: 50px;
+  background-color: gray;
+  color: white;
+  border: 0;
+}
